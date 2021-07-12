@@ -2,7 +2,7 @@ import React from "react";
 
 const WeatherForm = (props) => (
     <div className="card card-body">
-        <form action="">
+        <form onSubmit={props.getWeather}>
             <div className="form-group">
                 <input 
                 type="text" 
