@@ -1,0 +1,41 @@
+.city_input {
+    width: 225px;
+    height: 30px;
+    border-radius: 43PX;
+    border: 0;
+    background-color: #E7D4B5;
+}
+
+.city_input::placeholder{
+    color: black;
+    font-family: 'Segoe UI',bold;
+}
+
+.country_input {
+    width: 225px;
+    height: 30px;
+    font-family: 'Segoe UI',bold;
+    border-radius: 43PX;
+    border: 0;
+    margin-top: 12px;
+    background-color: #E7D4B5;
+}
+
+.country_input::placeholder{
+    color: black;
+    font-family: 'Segoe UI',bold;
+}
+
+.weatherForm_button {
+    color: white;
+    margin-left: 57px;
+    margin-top: 12px;
+    width: 113px;
+    height: 30px;
+    border: 0;
+    border-radius: 43px;
+    background-color: #A0937D;
+}
+
+
+

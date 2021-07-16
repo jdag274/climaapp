@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import WeatherInfo from "./components/WeatherInfo";
 import WeatherForm from "./components/WeatherForm";
 import {WEATHER_KEY} from "./Keys";
+import "./App.css";
+import cloud from "./images/cloud.svg"
 
 
 
@@ -52,13 +54,12 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="container p-4">
-        <div className="row">
-          <div className="col-md-4 mx-auto">
+      <div className="cloud">
+          <img  className="cloud_img" src={cloud}/>
+          <div className="form">
             <WeatherForm getWeather={this.getWeather}  />
             <WeatherInfo  {...this.state} />
           </div>
-        </div>
       </div>
     );
   }

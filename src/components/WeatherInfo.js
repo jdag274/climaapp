@@ -1,4 +1,5 @@
 import React from "react";
+import weatherInfo from "./style/weatherInfo.css";
 
 const WeatherInfo = props => {
 
@@ -7,7 +8,7 @@ const WeatherInfo = props => {
   
 
     return (
-      <div> 
+      <div className="props_info"> 
                  {
                      props.error && 
                         <div className="alert alert-danger">
@@ -15,23 +16,41 @@ const WeatherInfo = props => {
                         </div>
                 }
                 {
-                    props.temperature ? 
+                    props.temperature>0 ? 
                     <div className="card card-body">
            <p>
-               Location: {props.city}, {props.country}
+               Location: {props.city}, {props.country} 
            </p>
            <p>
-               Temperature: {props.temperature}°C {props.description}
+               Temperature: {props.temperature}°C {props.description} 
            </p>
            <p>
-               Humidity: {props.humidity} 
+               Humidity: {props.humidity}%
            </p>      
         </div>
         :
         <div>
-            <p>Not request yet</p>
         </div>
                 }
+
+        {
+            props.temparature<0 ?
+            <div className="card card-body">
+            <p>
+                Location: {props.city}, {props.country} 
+            </p>
+            <p>
+                Temperature: {props.temperature}°C {props.description} 
+            </p>
+            <p>
+                Humidity: {props.humidity}%
+            </p>      
+         </div>
+         :
+         <div>
+         </div>
+
+        }
             
     </div> 
         
