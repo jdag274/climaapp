@@ -37,5 +37,10 @@
     background-color: #A0937D;
 }
 
+.weatherForm_button:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
 
 

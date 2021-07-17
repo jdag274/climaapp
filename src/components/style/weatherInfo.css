@@ -1,4 +1,7 @@
-.cloud_info {
-
+.props_hot {
+    color: orange;
 }
 
+.props_cold {
+    color: blue;
+}

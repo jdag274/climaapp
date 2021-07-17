@@ -15,15 +15,23 @@ body {
 
 
 .cloud_img {
-
-    margin: 114px 100px;
+    width: 900px;
+    height: 600px;   
     position: absolute
 
+}
+
+.cloud_img:hover {
+    transform: scale(1.02);
 }
 
 .form {
     position: absolute;
     
+}
+
+.form:hover {
+    transform: scale(1.01);
 }
 
 

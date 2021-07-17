@@ -1,5 +1,5 @@
 import React from "react";
-import weatherInfo from "./style/weatherInfo.css";
+import "./style/weatherInfo.css";
 
 const WeatherInfo = props => {
 
@@ -21,7 +21,7 @@ const WeatherInfo = props => {
            <p>
                Location: {props.city}, {props.country} 
            </p>
-           <p>
+           <p className="props_hot">
                Temperature: {props.temperature}°C {props.description} 
            </p>
            <p>
@@ -34,12 +34,12 @@ const WeatherInfo = props => {
                 }
 
         {
-            props.temparature<0 ?
+            props.temparature<=0 ?
             <div className="card card-body">
             <p>
                 Location: {props.city}, {props.country} 
             </p>
-            <p>
+            <p className="props_cold">
                 Temperature: {props.temperature}°C {props.description} 
             </p>
             <p>
