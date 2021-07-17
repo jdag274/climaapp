@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/https//jdag274.github.io/climaapp/app.js/static/css/main.c79c00e9.chunk.css",
-    "main.js": "/https//jdag274.github.io/climaapp/app.js/static/js/main.0836322c.chunk.js",
-    "main.js.map": "/https//jdag274.github.io/climaapp/app.js/static/js/main.0836322c.chunk.js.map",
-    "runtime-main.js": "/https//jdag274.github.io/climaapp/app.js/static/js/runtime-main.5bfc5037.js",
-    "runtime-main.js.map": "/https//jdag274.github.io/climaapp/app.js/static/js/runtime-main.5bfc5037.js.map",
-    "static/js/2.fa9b101c.chunk.js": "/https//jdag274.github.io/climaapp/app.js/static/js/2.fa9b101c.chunk.js",
-    "static/js/2.fa9b101c.chunk.js.map": "/https//jdag274.github.io/climaapp/app.js/static/js/2.fa9b101c.chunk.js.map",
-    "static/js/3.81038ee3.chunk.js": "/https//jdag274.github.io/climaapp/app.js/static/js/3.81038ee3.chunk.js",
-    "static/js/3.81038ee3.chunk.js.map": "/https//jdag274.github.io/climaapp/app.js/static/js/3.81038ee3.chunk.js.map",
-    "index.html": "/https//jdag274.github.io/climaapp/app.js/index.html",
-    "static/css/main.c79c00e9.chunk.css.map": "/https//jdag274.github.io/climaapp/app.js/static/css/main.c79c00e9.chunk.css.map",
-    "static/js/2.fa9b101c.chunk.js.LICENSE.txt": "/https//jdag274.github.io/climaapp/app.js/static/js/2.fa9b101c.chunk.js.LICENSE.txt",
-    "static/media/cloud.643f2e4f.svg": "/https//jdag274.github.io/climaapp/app.js/static/media/cloud.643f2e4f.svg"
+    "main.css": "/climaapp/static/css/main.c79c00e9.chunk.css",
+    "main.js": "/climaapp/static/js/main.0836322c.chunk.js",
+    "main.js.map": "/climaapp/static/js/main.0836322c.chunk.js.map",
+    "runtime-main.js": "/climaapp/static/js/runtime-main.ac046015.js",
+    "runtime-main.js.map": "/climaapp/static/js/runtime-main.ac046015.js.map",
+    "static/js/2.fa9b101c.chunk.js": "/climaapp/static/js/2.fa9b101c.chunk.js",
+    "static/js/2.fa9b101c.chunk.js.map": "/climaapp/static/js/2.fa9b101c.chunk.js.map",
+    "static/js/3.81038ee3.chunk.js": "/climaapp/static/js/3.81038ee3.chunk.js",
+    "static/js/3.81038ee3.chunk.js.map": "/climaapp/static/js/3.81038ee3.chunk.js.map",
+    "index.html": "/climaapp/index.html",
+    "static/css/main.c79c00e9.chunk.css.map": "/climaapp/static/css/main.c79c00e9.chunk.css.map",
+    "static/js/2.fa9b101c.chunk.js.LICENSE.txt": "/climaapp/static/js/2.fa9b101c.chunk.js.LICENSE.txt",
+    "static/media/cloud.643f2e4f.svg": "/climaapp/static/media/cloud.643f2e4f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5bfc5037.js",
+    "static/js/runtime-main.ac046015.js",
     "static/js/2.fa9b101c.chunk.js",
     "static/css/main.c79c00e9.chunk.css",
     "static/js/main.0836322c.chunk.js"
