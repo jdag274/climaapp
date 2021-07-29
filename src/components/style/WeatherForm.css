@@ -17,7 +17,7 @@
     font-family: 'Segoe UI',bold;
     border-radius: 43PX;
     border: 0;
-    margin-top: 12px;
+    margin-top: 8px;
     background-color: #E7D4B5;
 }
 
@@ -29,7 +29,7 @@
 .weatherForm_button {
     color: white;
     margin-left: 57px;
-    margin-top: 12px;
+    margin-top: 10px;
     width: 113px;
     height: 30px;
     border: 0;
@@ -42,5 +42,26 @@
   cursor: pointer;
 }
 
+
+@media screen and (max-width:700px) {
+    .city_input{
+       width: 125px;
+       height: 18px;
+       margin-left: 30px;
+    }
+
+    .country_input{
+        width: 125px;
+        height: 18px;
+        margin-left: 30px;
+     }
+   
+     .weatherForm_button {
+         margin-left: 30px;
+         height: 18px;
+
+     }
+    
+   }
 
 

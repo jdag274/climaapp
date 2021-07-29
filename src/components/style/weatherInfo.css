@@ -5,3 +5,14 @@
 .props_cold {
     color: blue;
 }
+
+.props_info {
+  
+}
+
+@media screen and (max-width:700px) {
+    .props_info {
+        font-size: 10px;
+        margin-left: 30px;
+    }
+}
